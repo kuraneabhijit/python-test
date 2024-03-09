@@ -54,3 +54,10 @@ finally:
 # df.head(4), df.info(), df.describe()
 # df['Total']=df['Order_Quantity'] * df['Order_Price']
 # df.to_csv("update_csv.csv", index=False)
+'''
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
+print(myorder.format(quantity, itemno, price))
+'''
